@@ -137,7 +137,7 @@ export default function AdminDashboard() {
           </div>
         ) : (
           <div className="space-y-4">
-            {leads.map((lead, index) => (
+            {leads.map((lead) => (
               <div key={lead.id} className="bg-gray-900 border border-gray-800 rounded-lg p-6">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div>

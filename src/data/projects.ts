@@ -1,6 +1,5 @@
 // Import projects from Firebase service
 import { fetchProjects } from "../lib/projects";
-import type { Project } from "../lib/projects";
 
 // Export fetchProjects function for dynamic loading
 export { fetchProjects };
